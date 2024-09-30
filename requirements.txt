@@ -1,0 +1,8 @@
+Flask==2.0.3                # The core web framework
+Flask-SQLAlchemy==2.5.1      # For database handling using SQLAlchemy ORM
+Flask-JWT-Extended==4.4.3    # For handling JWT (JSON Web Tokens) authentication
+Flask-Cors==3.0.10           # To handle Cross-Origin Resource Sharing (useful for Vue.js frontend)
+mysqlclient==2.1.1           # MySQL database connector for Python (to work with Flask-SQLAlchemy)
+requests==2.28.2             # For making HTTP requests to stock price APIs (e.g., Alpha Vantage, IEX)
+python-dotenv==0.21.0        # For loading environment variables from a .env file
+pytest==7.1.2                # For running unit tests
